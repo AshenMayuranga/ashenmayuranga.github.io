@@ -7,6 +7,10 @@
 - Location: Colombo, Sri Lanka
 - GitHub: https://github.com/AshenMayuranga
 - LinkedIn: https://www.linkedin.com/in/ashen-mayuranga-33a1a431a/
+- Email: ashen.ayuranga@gmail.com
+- Mobile: +94 76 989 5035
+
+Contact details were verified against the header and email link in `docs/Asen_Mayuranga_Wijesiri_Software_Engineer_CV.pdf` and are displayed in the website's contact section.
 
 ## Professional background
 
@@ -14,7 +18,7 @@ Final-year BSc (Hons) Information Technology undergraduate at SLIIT. The supplie
 
 Experience includes Java/Spring Boot backend services, React/TypeScript frontend modules, gRPC, Hibernate/HQL, Kafka, PostgreSQL, Couchbase, production bug fixes, security fixes, refactoring, and unit testing.
 
-The CV lists expected graduation in March 2027. Confirm the current education status before publishing the final website copy.
+The newly supplied CV lists undergraduate studies in 2022–2026 and expected graduation in March 2027. The website now reflects those dates without claiming a completed qualification.
 
 ## Selected projects
 
@@ -60,6 +64,22 @@ Repository: https://github.com/AshenMayuranga/Edu_Journey
 
 - The 3D character and its animation source, including permission to redistribute any third-party assets.
 - Project screenshots or other supplied visual material.
-- A public CV download file, if the owner wants to include one in the finished site.
+- The supplied CV is available through the website's Download CV button.
 
-No character model, project screenshot, or CV PDF has been added to the repository at this stage.
+No third-party character model or project screenshot has been added. The supplied CV PDF is stored in `docs/Asen_Mayuranga_Wijesiri_Software_Engineer_CV.pdf` as a source for the professional information and contact details.
+
+## First implementation
+
+- The first version uses an original procedural Three.js robot, with a matching SVG fallback, rather than a third-party character model.
+- Project visuals are original explanatory diagrams, not screenshots of the applications.
+- The site includes all five projects, project filters, experience, skills, education, and email/phone/LinkedIn/GitHub contact links.
+- The education copy uses the study period and expected graduation date from the supplied CV.
+- Source files and locally vendored Three.js modules work directly on GitHub Pages; `npm run build` also creates a separate static `dist/` output.
+
+## Final local preparation
+
+- The footer shows a build-generated Last updated date and time in Asia/Colombo (UTC+05:30), fixed across visits and visitor timezones.
+- The hero includes a downloadable copy of the supplied CV.
+- The character uses a minified bundle; fonts are self-hosted with their licenses.
+- Metadata includes a PNG sharing image, social card fields, and factual profile structured data.
+- Git setup, publishing, and final address-dependent metadata are deferred until the owner is ready.
