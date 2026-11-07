@@ -1,0 +1,23 @@
+# Local tools and editor state
+.qodo/
+.codex/
+.agents/
+.aws/
+.idea/
+.vscode/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies, caches, and logs
+node_modules/
+.cache/
+coverage/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
