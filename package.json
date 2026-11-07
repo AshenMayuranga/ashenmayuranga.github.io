@@ -1,0 +1,30 @@
+{
+  "name": "asen-mayuranga-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Asen Mayuranga's interactive, GitHub Pages-ready portfolio.",
+  "scripts": {
+    "predev": "node scripts/vendor.mjs",
+    "dev": "node scripts/serve.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check js/main.js && node --check js/avatar.js && node --check scripts/serve.mjs && node --check scripts/build.mjs && node --check scripts/vendor.mjs && node --check scripts/site-metadata.mjs && node --check scripts/social-card.mjs && node --check scripts/audit.mjs",
+    "test": "node --test tests/site.test.mjs",
+    "audit": "node scripts/audit.mjs",
+    "social-card": "node scripts/social-card.mjs"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
+    "esbuild": "0.28.2",
+    "playwright": "1.65.0"
+  }
+}
